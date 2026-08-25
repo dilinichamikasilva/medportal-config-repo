@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72c1af3c-4040-4c02-adb5-10ad0490118e" name="Changes" comment="updated MongoDB URI in clinical-record-service.properties and added Eureka client configuration; modified VCS mapping in vcs.xml and added workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/appointment-service.properties" afterDir="false" />
-    </list>
+    <list default="true" id="72c1af3c-4040-4c02-adb5-10ad0490118e" name="Changes" comment="added GCP Cloud Storage bucket details and Cloud SQL connection properties in lab-report-service.properties; enabled Eureka client" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1787615446126</updated>
       <workItem from="1787615451487" duration="1273000" />
-      <workItem from="1787629930767" duration="4942000" />
+      <workItem from="1787629930767" duration="5255000" />
     </task>
     <task id="LOCAL-00001" summary="updated MongoDB URI in clinical-record-service.properties and added Eureka client configuration; modified VCS mapping in vcs.xml and added workspace.xml">
       <option name="closed" value="true" />
@@ -78,7 +75,23 @@
       <option name="project" value="LOCAL" />
       <updated>1787652122943</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated database connection properties in appointment-service.properties and enabled Eureka client registration; modified workspace.xml for VCS mapping">
+      <option name="closed" value="true" />
+      <created>1787653200133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1787653200133</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added GCP Cloud Storage bucket details and Cloud SQL connection properties in lab-report-service.properties; enabled Eureka client">
+      <option name="closed" value="true" />
+      <created>1787653352261</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1787653352261</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +99,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated MongoDB URI in clinical-record-service.properties and added Eureka client configuration; modified VCS mapping in vcs.xml and added workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated MongoDB URI in clinical-record-service.properties and added Eureka client configuration; modified VCS mapping in vcs.xml and added workspace.xml" />
+    <MESSAGE value="updated database connection properties in appointment-service.properties and enabled Eureka client registration; modified workspace.xml for VCS mapping" />
+    <MESSAGE value="added GCP Cloud Storage bucket details and Cloud SQL connection properties in lab-report-service.properties; enabled Eureka client" />
+    <option name="LAST_COMMIT_MESSAGE" value="added GCP Cloud Storage bucket details and Cloud SQL connection properties in lab-report-service.properties; enabled Eureka client" />
   </component>
 </project>
