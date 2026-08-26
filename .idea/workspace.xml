@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72c1af3c-4040-4c02-adb5-10ad0490118e" name="Changes" comment="added api-gateway.yml configuration for routing and CORS settings; updated workspace.xml with new task summaries">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="72c1af3c-4040-4c02-adb5-10ad0490118e" name="Changes" comment="enabled Eureka client registration and fetching of registry in appointment-service.properties; updated workspace.xml for task summaries">
       <change beforePath="$PROJECT_DIR$/appointment-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/appointment-service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinical-record-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clinical-record-service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab-report-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lab-report-service.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <workItem from="1787615451487" duration="1273000" />
       <workItem from="1787629930767" duration="6953000" />
       <workItem from="1787714117785" duration="422000" />
-      <workItem from="1787765115057" duration="2674000" />
+      <workItem from="1787765115057" duration="4285000" />
     </task>
     <task id="LOCAL-00001" summary="updated MongoDB URI in clinical-record-service.properties and added Eureka client configuration; modified VCS mapping in vcs.xml and added workspace.xml">
       <option name="closed" value="true" />
@@ -104,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787653586728</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="enabled Eureka client registration and fetching of registry in appointment-service.properties; updated workspace.xml for task summaries">
+      <option name="closed" value="true" />
+      <created>1787777925617</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1787777925617</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +124,7 @@
     <MESSAGE value="updated database connection properties in appointment-service.properties and enabled Eureka client registration; modified workspace.xml for VCS mapping" />
     <MESSAGE value="added GCP Cloud Storage bucket details and Cloud SQL connection properties in lab-report-service.properties; enabled Eureka client" />
     <MESSAGE value="added api-gateway.yml configuration for routing and CORS settings; updated workspace.xml with new task summaries" />
-    <option name="LAST_COMMIT_MESSAGE" value="added api-gateway.yml configuration for routing and CORS settings; updated workspace.xml with new task summaries" />
+    <MESSAGE value="enabled Eureka client registration and fetching of registry in appointment-service.properties; updated workspace.xml for task summaries" />
+    <option name="LAST_COMMIT_MESSAGE" value="enabled Eureka client registration and fetching of registry in appointment-service.properties; updated workspace.xml for task summaries" />
   </component>
 </project>
