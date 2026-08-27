@@ -12,7 +12,8 @@ spring:
               '[/**]':
                 allowedOrigins:
                 - "http://localhost:5173"
-                - "https://medportal-frontend-three.vercel.app"
+                - "http://136.110.213.76:80"
+                - "https://medportal-frontend-35457515854.asia-south1.run.app"
                 allowedMethods:
                   - GET
                   - POST

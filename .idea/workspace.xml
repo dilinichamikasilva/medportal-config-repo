@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72c1af3c-4040-4c02-adb5-10ad0490118e" name="Changes" comment="updated Eureka client service URLs in appointment-service.properties, clinical-record-service.properties, and lab-report-service.properties; modified workspace.xml for task summaries">
+    <list default="true" id="72c1af3c-4040-4c02-adb5-10ad0490118e" name="Changes" comment="updated CORS allowedOrigins in api-gateway.yml to include production frontend URL">
       <change beforePath="$PROJECT_DIR$/api-gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       <workItem from="1787615451487" duration="1273000" />
       <workItem from="1787629930767" duration="6953000" />
       <workItem from="1787714117785" duration="422000" />
-      <workItem from="1787765115057" duration="5519000" />
+      <workItem from="1787765115057" duration="7393000" />
     </task>
     <task id="LOCAL-00001" summary="updated MongoDB URI in clinical-record-service.properties and added Eureka client configuration; modified VCS mapping in vcs.xml and added workspace.xml">
       <option name="closed" value="true" />
@@ -119,7 +119,31 @@
       <option name="project" value="LOCAL" />
       <updated>1787782922172</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated Eureka client service URL in api-gateway.yml to point to the production server">
+      <option name="closed" value="true" />
+      <created>1787784172338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1787784172338</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated Eureka client service URLs in api-gateway.yml; modified workspace.xml for task summaries">
+      <option name="closed" value="true" />
+      <created>1787784190281</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1787784190281</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updated CORS allowedOrigins in api-gateway.yml to include production frontend URL">
+      <option name="closed" value="true" />
+      <created>1787790469642</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1787790469642</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +156,9 @@
     <MESSAGE value="added api-gateway.yml configuration for routing and CORS settings; updated workspace.xml with new task summaries" />
     <MESSAGE value="enabled Eureka client registration and fetching of registry in appointment-service.properties; updated workspace.xml for task summaries" />
     <MESSAGE value="updated Eureka client service URLs in appointment-service.properties, clinical-record-service.properties, and lab-report-service.properties; modified workspace.xml for task summaries" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated Eureka client service URLs in appointment-service.properties, clinical-record-service.properties, and lab-report-service.properties; modified workspace.xml for task summaries" />
+    <MESSAGE value="updated Eureka client service URL in api-gateway.yml to point to the production server" />
+    <MESSAGE value="updated Eureka client service URLs in api-gateway.yml; modified workspace.xml for task summaries" />
+    <MESSAGE value="updated CORS allowedOrigins in api-gateway.yml to include production frontend URL" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated CORS allowedOrigins in api-gateway.yml to include production frontend URL" />
   </component>
 </project>
