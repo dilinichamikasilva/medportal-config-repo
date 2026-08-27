@@ -12,7 +12,7 @@ spring:
               '[/**]':
                 allowedOrigins:
                 - "http://localhost:5173"
-                - "http://136.110.213.76:80"
+                - "http://136.110.213.76"
                 - "https://medportal-frontend-35457515854.asia-south1.run.app"
                 allowedMethods:
                   - GET
