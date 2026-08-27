@@ -14,7 +14,7 @@ The **Config Repository** is the centralized git-based configuration store for t
 
 ### 1. API Gateway (`application.yml`)
 * **Port:** `8080`
-* **Why we use it:** Acts as the single entry point for all client requests. It handles dynamic routing to downstream microservices using Spring Cloud Gateway and manages global CORS configurations to safely accept requests from the frontend (Vercel & Load Balancer IPs) while integrating with Eureka for service discovery.
+* **Why we use it:** Acts as the single entry point for all client requests. It handles dynamic routing to downstream microservices using Spring Cloud Gateway and manages global CORS configurations to safely accept requests from the frontend  while integrating with Eureka for service discovery.
 
 ### 2. Appointment Service (`appointment-service.properties`)
 * **Port:** `8081`
